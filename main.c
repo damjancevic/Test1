@@ -2,11 +2,12 @@
 
 int main()
 {
-    double y = 2;
+    int y = 2;
     for(int i = 0; i < 5; i++)
     {
-        y = y*y;
+        y = y*2;
     }
+    y = y - 10;
     int alpha = 64;
     printf("Hello World! %d\n", alpha);
     alpha++;
