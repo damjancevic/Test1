@@ -9,6 +9,7 @@ int main()
     }
     y = y - 10;
     int alpha = 64;
+    alpha = alpha - y;
     printf("Hello World! %d\n", alpha);
     alpha++;
     printf("%d\n", alpha);
